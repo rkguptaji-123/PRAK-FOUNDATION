@@ -1,0 +1,28 @@
+.body background {
+   height: 200%;
+   width: 200%;
+   
+   background-color: #1158d3;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.information a button{
+    padding: 0px;
+    cursor: pointer;
+    letter-spacing: 7px;
+    background-color: #1158d3;
+    background: linear-gradient(to right, transparent 50%, rgb(1, 161, 1) 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: .10s;
+    
+    border: 5px solid rgb(181, 5, 245);
+    color: rgb(15, 17, 17);
+    margin: 15px 0 -50%;
+    width: 100%;
+}
+.information a button:hover {
+    background-position: right;
+    color: rgb(224, 216, 7)
+}
